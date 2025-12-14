@@ -1,10 +1,8 @@
-### Таблица соответствия сущностей, таблиц БД и маршрутов
-
-| Сущность      | Таблица БД | Маршрут         |
-|---------------|------------|-----------------|
-| Товар         | product    | /product        |
-| Поставщик     | provider   | /provider       |
-| Заказ         | orders     | /order          |
-| Пользователь  | users      | /login          |
-| JWT-токен     | jwts       | /token          |
-| Пользователь  | users      | /registration   |
+| Сущность         | Таблица БД      | Маршрут          |
+|---|---|---|
+| Курс             | courses         | /course          |
+| Урок             | lessons         | /lesson          |
+| Тест/Задание     | assignments     | /assignment      |
+| Оценка           | grades          | /grade           |
+| Прогресс         | progresses      | /progress        |
+| Категория курса  | categories      | /category        |
